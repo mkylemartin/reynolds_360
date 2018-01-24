@@ -164,5 +164,3 @@ print('Other suffixes: ' + str(cool_suffix) + '\n')
 zero = re.findall(r'(murder)', text)
 print('Guess of zero change: ' + str(len(zero)))
 print('Zero changers: ' + str(zero) + '\n')
-
-
