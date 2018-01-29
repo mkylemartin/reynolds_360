@@ -7,6 +7,6 @@ response = r.get(url, headers=headers)
 print(response.text[:100], '....')
 print()
 
-f = open("scraped_wikipedia_article.html", "w+")
-f.write(response.text)
-f.close()
+with open("scraped_wikipedia_article.html", "w+") as f:
+	f.write(response.text)
+	f.close()
