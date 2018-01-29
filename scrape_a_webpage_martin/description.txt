@@ -1,0 +1,1 @@
+This project I scraped a random wikipedia article and parsed out all the <p> tags.
